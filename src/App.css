@@ -1,38 +1,25 @@
-.App {
+/* src/WorkingHoursHeatmap.css */
+#head{
   text-align: center;
+  margin-bottom: 100px;
+}
+.color-empty {
+  fill: #ebedf0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.color-scale-1 {
+  fill: #c6e48b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.color-scale-2 {
+  fill: #7bc96f;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.color-scale-3 {
+  fill: #239a3b;
 }
 
-.App-link {
-  color: #61dafb;
+.color-scale-4 {
+  fill: #196127;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
